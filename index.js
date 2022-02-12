@@ -38,7 +38,7 @@ function handleClick(){
             var kick = new Audio("sounds/kick-bass.mp3");
             kick.play();
         break;
-        default: alert(buttonPressed);
+        default: console.log(buttonPressed);
     }
 }
 
@@ -79,6 +79,6 @@ function playSound(Event){
             var kick = new Audio("sounds/kick-bass.mp3");
             kick.play();
         break;
-        default: alert(Event.key);
+        default: console.log(Event.key);
     }
 }

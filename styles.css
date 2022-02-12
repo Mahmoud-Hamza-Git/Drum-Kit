@@ -79,6 +79,10 @@ footer {
   margin: 10px;
   background-color: white;
 }
+.drum:hover{
+  box-shadow: -2px 2px 2px goldenrod ,5px -5px 5px goldenrod;
+  transform: translate(-.5px , .5px);
+}
 .black{
   color: black;
 }
