@@ -83,9 +83,6 @@ footer {
   box-shadow: -2px 2px 2px goldenrod ,5px -5px 5px goldenrod;
   transform: translate(-.5px , .5px);
 }
-.pressed{
+.black{
   color: black;
-  box-shadow: -5px 5px 2px goldenrod ,8px -8px 5px goldenrod;
-  transform: translate(-.5px , .5px);
-  opacity: 0.5;   /*if it was zero the button will disappear*/
 }
